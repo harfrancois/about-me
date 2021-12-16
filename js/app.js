@@ -1,13 +1,15 @@
 
 
+function greeting (){
+
 
   let userName = prompt('what is your name?');
   alert('Hi, ' + userName + ' Welcome to my site. lets play questionnaire game. I will ask you some question about my self and you try to guess yes or no.');
   alert('this is so that you can get to know me a little better.');
   alert('ready?');
+}
 
-
-
+function question1 (){
   let answer = prompt('Do i like coding?');
   if (answer.toLowerCase() === 'yes') {
     alert('Yes I do like coding!');
@@ -16,9 +18,9 @@
     alert('You are wrong.');
   }
   console.log(answer);
+}
 
-
-
+function question2 (){
   let answer = prompt('My favorite food mac & cheese?');
   if (answer.toLowerCase() === 'yes') {
     alert('You are correct!');
@@ -27,9 +29,10 @@
     alert('Ohh... Better luck next try.');
   }
   console.log(answer);
+}
 
 
-
+function question3 (){
   let answer = prompt('Am I in to sports?');
   if (answer.toLowerCase() === 'yes') {
     alert('Sorry thats the wrong answer.');
@@ -38,9 +41,10 @@
     alert('Thats right!');
   }
   console.log(answer);
+}
 
 
-
+function question4 (){
   let answer = prompt('Have I always lived here in Washington state?');
   if (answer.toLowerCase() === 'yes') {
     alert('That\'s the wrong answer!');
@@ -49,9 +53,10 @@
     alert('Correct! I was born and rased in Vietnam.');
   }
   console.log(answer);
+}
 
 
-
+function question5 (){
   let answer = prompt('Do I have a dog?');
   if (answer.toLowerCase() === 'yes') {
     alert('yes! She is a chuawa and her name is piggy because she eats like a pig.');
@@ -60,8 +65,8 @@
     alert('Ahhhh... Too bad, thats the wrong answer!');
   }
   console.log(answer);
-
-
+}
+function question6 (){
   alert('lets try a different game. this time you get 4 attempts.');
   let age = 33;
   let answer = prompt('How old do you think I am?');
@@ -84,4 +89,4 @@
   }
   if (attempts == 0)
     alert('Sorry your out of attempts. The answer is 33');
-
+}
